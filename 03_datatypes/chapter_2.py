@@ -1,0 +1,10 @@
+# Checking for 'set' immutability...here value on location changes.
+spice_mix = set()
+print("Initial spice mix:", spice_mix)
+print(f"Initial spice mix id : {id(spice_mix)}")
+spice_mix.add("cumin")
+spice_mix.add("cardamom")
+spice_mix.add("clove")
+spice_mix.add("ginger")
+print("Updated spice mix:", spice_mix)
+print(f"Updated spice mix id : {id(spice_mix)}")
