@@ -1,4 +1,4 @@
-# When we write hindi, japaneseor chinese characters:
+# When we write hindi, japanese or chinese characters:
 label_text = "Chai spécial"
 encoded_label = label_text.encode("utf-8")
 print(f"Non-encoded label: {label_text}")
